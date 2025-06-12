@@ -46,8 +46,8 @@
             </a>
           </div>
           <div class="navbar-end__login">
-            <button>Registrarse</button>
-            <button>Iniciar sesión</button>
+            <button class="btn-register">Registrarte</button>
+            <button class="btn btn-login">Iniciar sesión</button>
           </div>
         </div>
       </nav>
@@ -59,87 +59,293 @@
           <svg data-encore-id="icon" role="img" aria-hidden="true" class="e-9921-icon e-9921-baseline" viewBox="0 0 16 16" style="--encore-icon-height: var(--encore-graphic-size-decorative-smaller); --encore-icon-width: var(--encore-graphic-size-decorative-smaller);"><path d="M15.25 8a.75.75 0 0 1-.75.75H8.75v5.75a.75.75 0 0 1-1.5 0V8.75H1.5a.75.75 0 0 1 0-1.5h5.75V1.5a.75.75 0 0 1 1.5 0v5.75h5.75a.75.75 0 0 1 .75.75z"></path></svg>
         </div>
       </div>
-      <div class="library-card">
-        <h4>Crea tu primera lista</h4>
-        <p>Es muy fácil, y te echaremos una mano.</p>
-        <button>Crear lista</button>
-      </div>
-      <div class="library-card">
-        <h4>Encuentra pódcasts que quieras seguir</h4>
-        <p>Te avisaremos cuando salgan nuevos episodios</p>
-        <button>Explorar pódcasts</button>
+      <div class="library-cards">
+        <div class="library-card">
+          <h4>Crea tu primera lista</h4>
+          <p>Es muy fácil, y te echaremos una mano.</p>
+          <button class="btn">Crear lista</button>
+        </div>
+        <div class="library-card">
+          <h4>Encuentra pódcasts que quieras seguir</h4>
+          <p>Te avisaremos cuando salgan nuevos episodios</p>
+          <button class="btn">Explorar pódcasts</button>
+        </div>
       </div>
       <div class="library-footer">
-        <p>
+        <div class="library-footer__links">
           <a href="#">Legal</a>
           <a href="#">Centro de seguridad y privacidad</a>
           <a href="#">Política de privacidad</a>
           <a href="#">Cookies</a>
           <a href="#">Información sobre los anuncios</a>
           <a href="#">Accesibilidad</a>
-        </p>
-        <p><a href="#">Cookies</a></p>
+        </div>
+        <p class="library-footer__cookie"><a href="#">Cookies</a></p>
         <button>Español de España</button>
-      </div>
+      </d>
     </aside>
     <main>
       <div class="song-container">
-        <div class="top">
+        <div class="song-container__content">
           <h3>Canciones en tendencia</h3>
-          <div class="cards top-card">
-            <div class="card">
-              <img src="./img/albums/album_1.png" alt="">
+          <div class="song-container__cards">
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/albums/album_1.png" alt="">
+              </div>
+              <h4>Top diesel</h4>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/albums/album_2.png" alt="">
+              </div>
+              <h4>Top diesel</h4>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/albums/album_3.png" alt="">
+              </div>
+              <h4>Top diesel</h4>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/albums/album_4.png" alt="">
+              </div>
+              <h4>Top diesel</h4>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/albums/album_5.png" alt="">
+              </div>
+              <h4>Top diesel</h4>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/albums/album_6.png" alt="">
+              </div>
               <h4>Top diesel</h4>
               <p>Beéle</p>
             </div>
           </div>
         </div>
-        <div class="popular">
+        <div class="song-container__content">
           <h3>Artistas populares</h3>
-          <div class="cards top-card">
-            <div class="card">
-              <img src="./img/albums/album_1.png" alt="">
+          <div class="song-container__cards">
+            <div class="song-container__card">
+              <div class="song-container__card__img song-container__card__artist">
+                <img src="./img/artists/artist_1.png" alt="">
+              </div>
+              <h4>Top diesel</h4>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img song-container__card__artist">
+                <img src="./img/artists/artist_2.png" alt="">
+              </div>
+              <h4>Top diesel</h4>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img song-container__card__artist">
+                <img src="./img/artists/artist_3.png" alt="">
+              </div>
+              <h4>Top diesel</h4>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img song-container__card__artist">
+                <img src="./img/artists/artist_4.png" alt="">
+              </div>
+              <h4>Top diesel</h4>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img song-container__card__artist">
+                <img src="./img/artists/artist_5.png" alt="">
+              </div>
+              <h4>Top diesel</h4>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img song-container__card__artist">
+                <img src="./img/artists/artist_6.png" alt="">
+              </div>
               <h4>Top diesel</h4>
               <p>Beéle</p>
             </div>
           </div>
         </div>
-        <div class="popular-albums">
+        <div class="song-container__content">
           <h3>Álbumes y sencillos populares</h3>
-          <div class="cards top-card">
-            <div class="card">
-              <img src="./img/albums/album_1.png" alt="">
+          <div class="song-container__cards">
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/albums/album_1.png" alt="">
+              </div>
+              <h4>Top diesel</h4>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/albums/album_7.png" alt="">
+              </div>
+              <h4>Top diesel</h4>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/albums/album_8.png" alt="">
+              </div>
+              <h4>Top diesel</h4>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/albums/album_9.png" alt="">
+              </div>
+              <h4>Top diesel</h4>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/albums/album_10.png" alt="">
+              </div>
+              <h4>Top diesel</h4>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/albums/album_11.png" alt="">
+              </div>
               <h4>Top diesel</h4>
               <p>Beéle</p>
             </div>
           </div>
         </div>
-        <div class="popular-radios">
+        <div class="song-container__content">
           <h3>Emisoras populares</h3>
-          <div class="cards top-card">
-            <div class="card">
-              <img src="./img/albums/album_1.png" alt="">
-              <h4>Top diesel</h4>
+          <div class="song-container__cards">
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/radio/radio_1.png" alt="">
+              </div>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/radio/radio_2.png" alt="">
+              </div>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/radio/radio_3.png" alt="">
+              </div>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/radio/radio_4.png" alt="">
+              </div>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/radio/radio_5.png" alt="">
+              </div>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/radio/radio_6.png" alt="">
+              </div>
               <p>Beéle</p>
             </div>
           </div>
         </div>
-        <div class="top-lists">
+        <div class="song-container__content">
           <h3>Listas seleccionadas</h3>
-          <div class="cards top-card">
-            <div class="card">
-              <img src="./img/albums/album_1.png" alt="">
-              <h4>Top diesel</h4>
+          <div class="song-container__cards">
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/top/top_50_global.png" alt="">
+              </div>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/top/top_50_local.png" alt="">
+              </div>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/top/top_50_viral.png" alt="">
+              </div>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/top/top_50_viral_global.png" alt="">
+              </div>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/top/top_global.png" alt="">
+              </div>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/top/top_regional.png" alt="">
+              </div>
               <p>Beéle</p>
             </div>
           </div>
         </div>
-        <div class="hits">
+        <div class="song-container__content">
           <h3>Súbele a los himnos del trasnocho.</h3>
-          <div class="cards top-card">
-            <div class="card">
-              <img src="./img/albums/album_1.png" alt="">
-              <h4>Top diesel</h4>
+          <div class="song-container__cards">
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/hits/hit_1.png" alt="">
+              </div>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/hits/hit_2.png" alt="">
+              </div>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/hits/hit_3.png" alt="">
+              </div>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/hits/hit_4.png" alt="">
+              </div>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/hits/hit_5.png" alt="">
+              </div>
+              <p>Beéle</p>
+            </div>
+            <div class="song-container__card">
+              <div class="song-container__card__img">
+                <img src="./img/hits/hit_6.png" alt="">
+              </div>
               <p>Beéle</p>
             </div>
           </div>
